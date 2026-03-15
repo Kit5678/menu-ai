@@ -1,0 +1,4104 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name_en": "Chicken Stir Fry with Yardlong Beans",
+      "name_th": "ผัดไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 13,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 2,
+      "name_en": "Chicken Fried with Yardlong Beans",
+      "name_th": "ทอดไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 14,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 3,
+      "name_en": "Chicken Soup with Yardlong Beans",
+      "name_th": "ต้มไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 15,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 4,
+      "name_en": "Chicken Salad with Yardlong Beans",
+      "name_th": "ยำไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 16,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 5,
+      "name_en": "Chicken Stir Fry with Yardlong Beans",
+      "name_th": "ผัดไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 17,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 6,
+      "name_en": "Chicken Fried with Yardlong Beans",
+      "name_th": "ทอดไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 18,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 7,
+      "name_en": "Chicken Soup with Yardlong Beans",
+      "name_th": "ต้มไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 19,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 8,
+      "name_en": "Chicken Salad with Yardlong Beans",
+      "name_th": "ยำไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 20,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 9,
+      "name_en": "Chicken Stir Fry with Yardlong Beans",
+      "name_th": "ผัดไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 21,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 10,
+      "name_en": "Chicken Fried with Yardlong Beans",
+      "name_th": "ทอดไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 22,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 11,
+      "name_en": "Chicken Soup with Yardlong Beans",
+      "name_th": "ต้มไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 23,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 12,
+      "name_en": "Chicken Salad with Yardlong Beans",
+      "name_th": "ยำไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 24,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 13,
+      "name_en": "Chicken Stir Fry with Yardlong Beans",
+      "name_th": "ผัดไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 25,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 14,
+      "name_en": "Chicken Fried with Yardlong Beans",
+      "name_th": "ทอดไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 26,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 15,
+      "name_en": "Chicken Soup with Yardlong Beans",
+      "name_th": "ต้มไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 27,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 16,
+      "name_en": "Chicken Salad with Yardlong Beans",
+      "name_th": "ยำไก่ใส่ถั่วฝักยาว",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "yardlong beans"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "ถั่วฝักยาว"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 28,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 17,
+      "name_en": "Chicken Stir Fry with Kale",
+      "name_th": "ผัดไก่ใส่คะน้า",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 29,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 18,
+      "name_en": "Chicken Fried with Kale",
+      "name_th": "ทอดไก่ใส่คะน้า",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 30,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 19,
+      "name_en": "Chicken Soup with Kale",
+      "name_th": "ต้มไก่ใส่คะน้า",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 31,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 20,
+      "name_en": "Chicken Salad with Kale",
+      "name_th": "ยำไก่ใส่คะน้า",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 12,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 21,
+      "name_en": "Chicken Stir Fry with Kale",
+      "name_th": "ผัดไก่ใส่คะน้า",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 13,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 22,
+      "name_en": "Chicken Fried with Kale",
+      "name_th": "ทอดไก่ใส่คะน้า",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 14,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 23,
+      "name_en": "Chicken Soup with Kale",
+      "name_th": "ต้มไก่ใส่คะน้า",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 15,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 24,
+      "name_en": "Chicken Salad with Kale",
+      "name_th": "ยำไก่ใส่คะน้า",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 16,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 25,
+      "name_en": "Chicken Stir Fry with Kale",
+      "name_th": "ผัดไก่ใส่คะน้า",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 17,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 26,
+      "name_en": "Chicken Fried with Kale",
+      "name_th": "ทอดไก่ใส่คะน้า",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 18,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 27,
+      "name_en": "Chicken Soup with Kale",
+      "name_th": "ต้มไก่ใส่คะน้า",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 19,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 28,
+      "name_en": "Chicken Salad with Kale",
+      "name_th": "ยำไก่ใส่คะน้า",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 20,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 29,
+      "name_en": "Chicken Stir Fry with Kale",
+      "name_th": "ผัดไก่ใส่คะน้า",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 21,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 30,
+      "name_en": "Chicken Fried with Kale",
+      "name_th": "ทอดไก่ใส่คะน้า",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 22,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 31,
+      "name_en": "Chicken Soup with Kale",
+      "name_th": "ต้มไก่ใส่คะน้า",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 23,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 32,
+      "name_en": "Chicken Salad with Kale",
+      "name_th": "ยำไก่ใส่คะน้า",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "kale"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "คะน้า"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 24,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 33,
+      "name_en": "Chicken Stir Fry with Morning Glory",
+      "name_th": "ผัดไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 25,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 34,
+      "name_en": "Chicken Fried with Morning Glory",
+      "name_th": "ทอดไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 26,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 35,
+      "name_en": "Chicken Soup with Morning Glory",
+      "name_th": "ต้มไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 27,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 36,
+      "name_en": "Chicken Salad with Morning Glory",
+      "name_th": "ยำไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 28,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 37,
+      "name_en": "Chicken Stir Fry with Morning Glory",
+      "name_th": "ผัดไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 29,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 38,
+      "name_en": "Chicken Fried with Morning Glory",
+      "name_th": "ทอดไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 30,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 39,
+      "name_en": "Chicken Soup with Morning Glory",
+      "name_th": "ต้มไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 31,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 40,
+      "name_en": "Chicken Salad with Morning Glory",
+      "name_th": "ยำไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 12,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 41,
+      "name_en": "Chicken Stir Fry with Morning Glory",
+      "name_th": "ผัดไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 13,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 42,
+      "name_en": "Chicken Fried with Morning Glory",
+      "name_th": "ทอดไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 14,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 43,
+      "name_en": "Chicken Soup with Morning Glory",
+      "name_th": "ต้มไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 15,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 44,
+      "name_en": "Chicken Salad with Morning Glory",
+      "name_th": "ยำไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 16,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 45,
+      "name_en": "Chicken Stir Fry with Morning Glory",
+      "name_th": "ผัดไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 17,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 46,
+      "name_en": "Chicken Fried with Morning Glory",
+      "name_th": "ทอดไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 18,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 47,
+      "name_en": "Chicken Soup with Morning Glory",
+      "name_th": "ต้มไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 19,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 48,
+      "name_en": "Chicken Salad with Morning Glory",
+      "name_th": "ยำไก่ใส่ผักบุ้ง",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "morning glory"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "ผักบุ้ง"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 20,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 49,
+      "name_en": "Chicken Stir Fry with Cabbage",
+      "name_th": "ผัดไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 21,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 50,
+      "name_en": "Chicken Fried with Cabbage",
+      "name_th": "ทอดไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 22,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 51,
+      "name_en": "Chicken Soup with Cabbage",
+      "name_th": "ต้มไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 23,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 52,
+      "name_en": "Chicken Salad with Cabbage",
+      "name_th": "ยำไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 24,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 53,
+      "name_en": "Chicken Stir Fry with Cabbage",
+      "name_th": "ผัดไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 25,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 54,
+      "name_en": "Chicken Fried with Cabbage",
+      "name_th": "ทอดไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 26,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 55,
+      "name_en": "Chicken Soup with Cabbage",
+      "name_th": "ต้มไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 27,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 56,
+      "name_en": "Chicken Salad with Cabbage",
+      "name_th": "ยำไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 28,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 57,
+      "name_en": "Chicken Stir Fry with Cabbage",
+      "name_th": "ผัดไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 29,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 58,
+      "name_en": "Chicken Fried with Cabbage",
+      "name_th": "ทอดไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 30,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 59,
+      "name_en": "Chicken Soup with Cabbage",
+      "name_th": "ต้มไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 31,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 60,
+      "name_en": "Chicken Salad with Cabbage",
+      "name_th": "ยำไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 12,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 61,
+      "name_en": "Chicken Stir Fry with Cabbage",
+      "name_th": "ผัดไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 13,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 62,
+      "name_en": "Chicken Fried with Cabbage",
+      "name_th": "ทอดไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 14,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 63,
+      "name_en": "Chicken Soup with Cabbage",
+      "name_th": "ต้มไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 15,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 64,
+      "name_en": "Chicken Salad with Cabbage",
+      "name_th": "ยำไก่ใส่กะหล่ำปลี",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "cabbage"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "กะหล่ำปลี"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 16,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 65,
+      "name_en": "Chicken Stir Fry with Carrot",
+      "name_th": "ผัดไก่ใส่แครอท",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 17,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 66,
+      "name_en": "Chicken Fried with Carrot",
+      "name_th": "ทอดไก่ใส่แครอท",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 18,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 67,
+      "name_en": "Chicken Soup with Carrot",
+      "name_th": "ต้มไก่ใส่แครอท",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 19,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 68,
+      "name_en": "Chicken Salad with Carrot",
+      "name_th": "ยำไก่ใส่แครอท",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 20,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 69,
+      "name_en": "Chicken Stir Fry with Carrot",
+      "name_th": "ผัดไก่ใส่แครอท",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 21,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 70,
+      "name_en": "Chicken Fried with Carrot",
+      "name_th": "ทอดไก่ใส่แครอท",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 22,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 71,
+      "name_en": "Chicken Soup with Carrot",
+      "name_th": "ต้มไก่ใส่แครอท",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 23,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 72,
+      "name_en": "Chicken Salad with Carrot",
+      "name_th": "ยำไก่ใส่แครอท",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 24,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 73,
+      "name_en": "Chicken Stir Fry with Carrot",
+      "name_th": "ผัดไก่ใส่แครอท",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 25,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 74,
+      "name_en": "Chicken Fried with Carrot",
+      "name_th": "ทอดไก่ใส่แครอท",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 26,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 75,
+      "name_en": "Chicken Soup with Carrot",
+      "name_th": "ต้มไก่ใส่แครอท",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 27,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 76,
+      "name_en": "Chicken Salad with Carrot",
+      "name_th": "ยำไก่ใส่แครอท",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 28,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 77,
+      "name_en": "Chicken Stir Fry with Carrot",
+      "name_th": "ผัดไก่ใส่แครอท",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 29,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 78,
+      "name_en": "Chicken Fried with Carrot",
+      "name_th": "ทอดไก่ใส่แครอท",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 30,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 79,
+      "name_en": "Chicken Soup with Carrot",
+      "name_th": "ต้มไก่ใส่แครอท",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 31,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 80,
+      "name_en": "Chicken Salad with Carrot",
+      "name_th": "ยำไก่ใส่แครอท",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "carrot"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "แครอท"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 12,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 81,
+      "name_en": "Chicken Stir Fry with Tomato",
+      "name_th": "ผัดไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 13,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 82,
+      "name_en": "Chicken Fried with Tomato",
+      "name_th": "ทอดไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 14,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 83,
+      "name_en": "Chicken Soup with Tomato",
+      "name_th": "ต้มไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 15,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 84,
+      "name_en": "Chicken Salad with Tomato",
+      "name_th": "ยำไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 16,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 85,
+      "name_en": "Chicken Stir Fry with Tomato",
+      "name_th": "ผัดไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 17,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 86,
+      "name_en": "Chicken Fried with Tomato",
+      "name_th": "ทอดไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 18,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 87,
+      "name_en": "Chicken Soup with Tomato",
+      "name_th": "ต้มไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 19,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 88,
+      "name_en": "Chicken Salad with Tomato",
+      "name_th": "ยำไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "noodles",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "เส้นก๋วยเตี๋ยว",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 20,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 89,
+      "name_en": "Chicken Stir Fry with Tomato",
+      "name_th": "ผัดไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 21,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 90,
+      "name_en": "Chicken Fried with Tomato",
+      "name_th": "ทอดไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 22,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 91,
+      "name_en": "Chicken Soup with Tomato",
+      "name_th": "ต้มไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 23,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 92,
+      "name_en": "Chicken Salad with Tomato",
+      "name_th": "ยำไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "vermicelli",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "วุ้นเส้น",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 24,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 93,
+      "name_en": "Chicken Stir Fry with Tomato",
+      "name_th": "ผัดไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 25,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 94,
+      "name_en": "Chicken Fried with Tomato",
+      "name_th": "ทอดไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 26,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 95,
+      "name_en": "Chicken Soup with Tomato",
+      "name_th": "ต้มไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 27,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 96,
+      "name_en": "Chicken Salad with Tomato",
+      "name_th": "ยำไก่ใส่มะเขือเทศ",
+      "ingredients_en": [
+        "bread",
+        "chicken",
+        "tomato"
+      ],
+      "ingredients_th": [
+        "ขนมปัง",
+        "ไก่",
+        "มะเขือเทศ"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 28,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 97,
+      "name_en": "Chicken Stir Fry with Onion",
+      "name_th": "ผัดไก่ใส่หอมใหญ่",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "onion"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "หอมใหญ่"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 29,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 98,
+      "name_en": "Chicken Fried with Onion",
+      "name_th": "ทอดไก่ใส่หอมใหญ่",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "onion"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "หอมใหญ่"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 30,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 99,
+      "name_en": "Chicken Soup with Onion",
+      "name_th": "ต้มไก่ใส่หอมใหญ่",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "onion"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "หอมใหญ่"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 31,
+      "difficulty": "medium",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 100,
+      "name_en": "Chicken Salad with Onion",
+      "name_th": "ยำไก่ใส่หอมใหญ่",
+      "ingredients_en": [
+        "rice",
+        "chicken",
+        "onion"
+      ],
+      "ingredients_th": [
+        "ข้าว",
+        "ไก่",
+        "หอมใหญ่"
+      ],
+      "seasonings_en": [
+        "fish sauce",
+        "salt",
+        "sugar"
+      ],
+      "seasonings_th": [
+        "น้ำปลา",
+        "เกลือ",
+        "น้ำตาล"
+      ],
+      "time_min": 12,
+      "difficulty": "easy",
+      "steps_th": [
+        "เตรียมวัตถุดิบ ล้างและหั่นให้ขนาดพอดี",
+        "ตั้งกระทะ ใส่น้ำมัน ผัดวัตถุดิบหลักให้สุก",
+        "ใส่ผักและคาร์โบไฮเดรต ผัดให้เข้ากัน",
+        "ปรุงรสด้วยน้ำปลา เกลือ น้ำตาล ชิมรสตามชอบ",
+        "ตักเสิร์ฟทันที"
+      ],
+      "steps_en": [
+        "Prepare ingredients, wash and cut into bite-size pieces.",
+        "Heat oil in a pan and cook the main protein until done.",
+        "Add vegetables and carbs, stir to combine.",
+        "Season with fish sauce, salt, and sugar. Adjust to taste.",
+        "Serve hot."
+      ]
+    }
+  ]
+}
