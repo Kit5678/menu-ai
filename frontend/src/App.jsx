@@ -112,7 +112,9 @@ function App() {
     setResults([])
 
     try {
-      const response = await fetch('http://localhost:8000/recommend', {
+      const apiBase =
+        import.meta.env.VITE_API_URL || 'http://localhost:8000'
+      const response = await fetch(`${apiBase}/recommend`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ingredients, language })
@@ -141,7 +143,7 @@ function App() {
     if (results.length > 0) {
       fetchResults()
     }
-  }, [language])
+  }, [language, fetchResults, results.length])
 
   const t = translations[language]
 
@@ -270,11 +272,16 @@ function App() {
                     <span className="tag muted">{t.noOverlap}</span>
                   )}
                 </div>
-                {item.ai_missing && item.ai_missing.length > 0 && (
+                {((language === 'th'
+                  ? item.missing_th
+                  : item.missing_en) || []).length > 0 && (
                   <>
                     <p className="meta-title">{t.missing}</p>
                     <div className="tag-row">
-                      {item.ai_missing.map((missing) => (
+                      {(language === 'th'
+                        ? item.missing_th
+                        : item.missing_en
+                      ).map((missing) => (
                         <span key={missing} className="tag muted">
                           {missing}
                         </span>
