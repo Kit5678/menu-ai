@@ -94,6 +94,7 @@ function App() {
   const [selectedIds, setSelectedIds] = useState(['egg', 'rice'])
   const [showLoading, setShowLoading] = useState(false)
   const loadingTimerRef = useRef(null)
+  const hasResultsRef = useRef(false)
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
@@ -104,6 +105,10 @@ function App() {
   }, [language])
 
   useEffect(() => {
+  useEffect(() => {
+    hasResultsRef.current = results.length > 0
+  }, [results.length])
+
     if (loading) {
       if (loadingTimerRef.current) {
         clearTimeout(loadingTimerRef.current)
@@ -166,10 +171,10 @@ function App() {
   }
 
   useEffect(() => {
-    if (results.length > 0) {
+    if (hasResultsRef.current) {
       fetchResults()
     }
-  }, [language, fetchResults, results.length])
+  }, [language, fetchResults])
 
   const t = translations[language]
 
