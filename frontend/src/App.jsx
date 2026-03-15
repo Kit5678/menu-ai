@@ -1,4 +1,4 @@
-import { useMemo, useState, useEffect, useCallback } from 'react'
+import { useMemo, useState, useEffect, useCallback, useRef } from 'react'
 import './App.css'
 
 const ingredientOptions = [
@@ -36,6 +36,7 @@ const translations = {
     ingredientsLabel: '\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e27\u0e31\u0e15\u0e16\u0e38\u0e14\u0e34\u0e1a\u0e08\u0e32\u0e01\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23',
     recommend: '\u0e41\u0e19\u0e30\u0e19\u0e33\u0e40\u0e21\u0e19\u0e39',
     ranking: '\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2d\u0e31\u0e19\u0e14\u0e31\u0e1a...',
+    loading: '\u0e01\u0e33\u0e25\u0e31\u0e07\u0e42\u0e2b\u0e25\u0e14\u0e1c\u0e25\u0e25\u0e31\u0e1e\u0e18\u0e4c...',
     resultsTitle: '\u0e1c\u0e25\u0e25\u0e31\u0e1e\u0e18\u0e4c\u0e01\u0e32\u0e23\u0e08\u0e31\u0e14\u0e2d\u0e31\u0e19\u0e14\u0e31\u0e1a',
     resultsSubtitle: '\u0e08\u0e31\u0e14\u0e2d\u0e31\u0e19\u0e14\u0e31\u0e1a\u0e15\u0e32\u0e21\u0e04\u0e27\u0e32\u0e21\u0e40\u0e2b\u0e21\u0e37\u0e2d\u0e19\u0e02\u0e2d\u0e07\u0e27\u0e31\u0e15\u0e16\u0e38\u0e14\u0e34\u0e1a',
     empty: '\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e21\u0e35\u0e1c\u0e25\u0e25\u0e31\u0e1e\u0e18\u0e4c \u0e25\u0e2d\u0e07\u0e04\u0e49\u0e19\u0e2b\u0e32\u0e2d\u0e35\u0e01\u0e04\u0e23\u0e31\u0e49\u0e07',
@@ -61,6 +62,7 @@ const translations = {
     ingredientsLabel: 'Pick ingredients from the list',
     recommend: 'Recommend menus',
     ranking: 'Ranking...',
+    loading: 'Loading results...',
     resultsTitle: 'Ranked results',
     resultsSubtitle: 'Top matches based on ingredient overlap.',
     empty: 'No results yet. Try running a search.',
@@ -90,6 +92,8 @@ function App() {
   const [selectedRecipe, setSelectedRecipe] = useState(null)
   const [resultLanguage, setResultLanguage] = useState('th')
   const [selectedIds, setSelectedIds] = useState(['egg', 'rice'])
+  const [showLoading, setShowLoading] = useState(false)
+  const loadingTimerRef = useRef(null)
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
@@ -98,6 +102,29 @@ function App() {
   useEffect(() => {
     document.documentElement.setAttribute('data-lang', language)
   }, [language])
+
+  useEffect(() => {
+    if (loading) {
+      if (loadingTimerRef.current) {
+        clearTimeout(loadingTimerRef.current)
+      }
+      loadingTimerRef.current = setTimeout(() => {
+        setShowLoading(true)
+      }, 250)
+    } else {
+      if (loadingTimerRef.current) {
+        clearTimeout(loadingTimerRef.current)
+        loadingTimerRef.current = null
+      }
+      setShowLoading(false)
+    }
+    return () => {
+      if (loadingTimerRef.current) {
+        clearTimeout(loadingTimerRef.current)
+        loadingTimerRef.current = null
+      }
+    }
+  }, [loading])
 
   const ingredients = useMemo(() => {
     return selectedIds.map((id) => {
@@ -147,7 +174,7 @@ function App() {
   const t = translations[language]
 
   const difficultyMap = {
-    th: { easy: '????', medium: '???????', hard: '???' },
+    th: { easy: '\u0e07\u0e48\u0e32\u0e22', medium: '\u0e1b\u0e32\u0e19\u0e01\u0e25\u0e32\u0e07', hard: '\u0e22\u0e32\u0e01' },
     en: { easy: 'Easy', medium: 'Medium', hard: 'Hard' }
   }
 
@@ -232,18 +259,33 @@ function App() {
         <div className="results-head">
           <h2>{t.resultsTitle}</h2>
           <p>{t.resultsSubtitle}</p>
-          {loading && (
+          {showLoading && (
             <div className="loading">
               <span className="dot" />
-              <span>
-                {language === 'th' ? 'กำลังโหลดผลลัพธ์...' : 'Loading results...'}
-              </span>
+              <span>{t.loading}</span>
             </div>
           )}
         </div>
-        <div className={`cards ${loading ? 'loading' : ''}`}>
+        <div className={`cards ${showLoading ? 'loading' : ''}`}>
           {results.length === 0 && !loading && (
             <div className="empty">{t.empty}</div>
+          )}
+          {results.length === 0 && showLoading && (
+            <>
+              {Array.from({ length: 4 }).map((_, idx) => (
+                <div key={`skeleton-${idx}`} className="card skeleton">
+                  <div className="skeleton-line title" />
+                  <div className="skeleton-line short" />
+                  <div className="skeleton-line" />
+                  <div className="skeleton-line" />
+                  <div className="skeleton-tags">
+                    <span className="skeleton-chip" />
+                    <span className="skeleton-chip" />
+                    <span className="skeleton-chip" />
+                  </div>
+                </div>
+              ))}
+            </>
           )}
           {results.map((item) => (
             <article key={item.id} className="card">

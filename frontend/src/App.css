@@ -233,9 +233,12 @@ button:hover:not(:disabled) {
   animation: pulse 1.2s infinite;
 }
 
+.cards {
+  transition: filter 0.25s ease;
+}
+
 .cards.loading {
-  opacity: 0.65;
-  transition: opacity 0.2s ease;
+  filter: saturate(0.98);
 }
 
 @keyframes pulse {
@@ -250,6 +253,15 @@ button:hover:not(:disabled) {
   100% {
     transform: scale(0.8);
     opacity: 0.5;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(120%);
   }
 }
 .cards {
@@ -267,6 +279,55 @@ button:hover:not(:disabled) {
   flex-direction: column;
   gap: 12px;
   min-height: 160px;
+}
+
+.card.skeleton {
+  position: relative;
+  overflow: hidden;
+}
+
+.card.skeleton::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.35) 40%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  transform: translateX(-120%);
+  animation: shimmer 1.4s ease-in-out infinite;
+}
+
+.skeleton-line {
+  height: 12px;
+  border-radius: 999px;
+  background: var(--tag-muted);
+  margin-top: 10px;
+}
+
+.skeleton-line.title {
+  height: 20px;
+  width: 70%;
+  margin-top: 0;
+}
+
+.skeleton-line.short {
+  width: 45%;
+}
+
+.skeleton-tags {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.skeleton-chip {
+  width: 56px;
+  height: 18px;
+  border-radius: 999px;
+  background: var(--tag-muted);
 }
 
 .card h3 {
