@@ -24,6 +24,7 @@ app.add_middleware(
         "http://localhost:5173",
         "https://menu-3jagyvn97-kit5678s-projects.vercel.app",
         "https://menu-nhiwxpcp8-kit5678s-projects.vercel.app",
+        "https://menu-ai-tan.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
