@@ -109,7 +109,6 @@ function App() {
   const fetchResults = useCallback(async () => {
     setError('')
     setLoading(true)
-    setResults([])
 
     try {
       const apiBase =
