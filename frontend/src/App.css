@@ -215,6 +215,43 @@ button:hover:not(:disabled) {
   color: var(--ink);
 }
 
+.loading {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.loading .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 6px rgba(228, 87, 46, 0.15);
+  animation: pulse 1.2s infinite;
+}
+
+.cards.loading {
+  opacity: 0.65;
+  transition: opacity 0.2s ease;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));

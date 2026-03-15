@@ -232,8 +232,16 @@ function App() {
         <div className="results-head">
           <h2>{t.resultsTitle}</h2>
           <p>{t.resultsSubtitle}</p>
+          {loading && (
+            <div className="loading">
+              <span className="dot" />
+              <span>
+                {language === 'th' ? 'กำลังโหลดผลลัพธ์...' : 'Loading results...'}
+              </span>
+            </div>
+          )}
         </div>
-        <div className="cards">
+        <div className={`cards ${loading ? 'loading' : ''}`}>
           {results.length === 0 && !loading && (
             <div className="empty">{t.empty}</div>
           )}
