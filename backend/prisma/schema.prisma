@@ -1,0 +1,25 @@
+// Prisma schema for menu-ai
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Recipe {
+  id             Int      @id @default(autoincrement())
+  name_en        String
+  name_th        String
+  ingredients_en String[]
+  ingredients_th String[]
+  seasonings_en  String[]
+  seasonings_th  String[]
+  time_min       Int?
+  difficulty     String?
+  steps_en       String[]
+  steps_th       String[]
+  ai_reason      String?
+}
