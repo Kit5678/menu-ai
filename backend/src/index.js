@@ -36,10 +36,7 @@ const isAllowedOrigin = (origin) => {
 
 app.use(
   cors({
-    origin: (origin, callback) => {
-      if (isAllowedOrigin(origin)) return callback(null, true)
-      return callback(new Error('CORS not allowed'))
-    },
+    origin: true,
     credentials: true,
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders: ['Content-Type']
