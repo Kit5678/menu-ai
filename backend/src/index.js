@@ -144,59 +144,71 @@ app.post('/recommend', async (req, res) => {
   const ingredients = Array.isArray(req.body?.ingredients) ? req.body.ingredients : []
   const language = req.body?.language === 'en' ? 'en' : 'th'
 
-  const recipes = await prisma.recipe.findMany()
-  const userCanon = new Set(toCanonical(ingredients))
+  try {
+    const recipes = await prisma.recipe.findMany()
+    const userCanon = new Set(toCanonical(ingredients))
 
-  const scored = recipes.map((recipe) => {
-    const recipeCanon = new Set(toCanonical(recipe.ingredients_en))
-    const overlap = [...recipeCanon].filter((item) => userCanon.has(item))
-    const score = Math.round((overlap.length / (recipeCanon.size || 1)) * 10)
+    const scored = recipes.map((recipe) => {
+      const recipeCanon = new Set(toCanonical(recipe.ingredients_en))
+      const overlap = [...recipeCanon].filter((item) => userCanon.has(item))
+      const score = Math.round((overlap.length / (recipeCanon.size || 1)) * 10)
 
-    const matched = []
-    for (const original of ingredients) {
-      const canon = toCanonical([original])[0]
-      if (canon && recipeCanon.has(canon)) {
-        matched.push(original)
+      const matched = []
+      for (const original of ingredients) {
+        const canon = toCanonical([original])[0]
+        if (canon && recipeCanon.has(canon)) {
+          matched.push(original)
+        }
       }
-    }
 
-    const displayMapTh = {}
-    const displayMapEn = {}
-    recipe.ingredients_en.forEach((enItem, idx) => {
-      const canon = toCanonical([enItem])[0]
-      const thItem = recipe.ingredients_th[idx] || enItem
-      displayMapTh[canon] = thItem
-      displayMapEn[canon] = enItem
+      const displayMapTh = {}
+      const displayMapEn = {}
+      recipe.ingredients_en.forEach((enItem, idx) => {
+        const canon = toCanonical([enItem])[0]
+        const thItem = recipe.ingredients_th[idx] || enItem
+        displayMapTh[canon] = thItem
+        displayMapEn[canon] = enItem
+      })
+
+      const missingCanon = [...recipeCanon].filter((item) => !overlap.includes(item))
+      const missing_th = missingCanon.map((item) => displayMapTh[item] || item).slice(0, 3)
+      const missing_en = missingCanon.map((item) => displayMapEn[item] || item).slice(0, 3)
+
+      return {
+        id: recipe.id,
+        name_en: recipe.name_en,
+        name_th: recipe.name_th,
+        ingredients_en: recipe.ingredients_en,
+        ingredients_th: recipe.ingredients_th,
+        seasonings_en: recipe.seasonings_en,
+        seasonings_th: recipe.seasonings_th,
+        score,
+        matched: [...new Set(matched)],
+        missing_en,
+        missing_th,
+        ai_reason: recipe.ai_reason || fallbackReason(language, matched),
+        ai_missing: language === 'th' ? missing_th : missing_en,
+        ai_substitutes: [],
+        time_min: recipe.time_min,
+        difficulty: recipe.difficulty,
+        steps_en: recipe.steps_en,
+        steps_th: recipe.steps_th
+      }
     })
 
-    const missingCanon = [...recipeCanon].filter((item) => !overlap.includes(item))
-    const missing_th = missingCanon.map((item) => displayMapTh[item] || item).slice(0, 3)
-    const missing_en = missingCanon.map((item) => displayMapEn[item] || item).slice(0, 3)
+    scored.sort((a, b) => b.score - a.score)
+    res.json({ input: ingredients, language, results: scored.slice(0, 5) })
+  } catch (error) {
+    console.error('Recommend failed:', error)
+    res.status(500).json({
+      error: 'Database unavailable',
+      detail: 'Please check DATABASE_URL in Render and Supabase connectivity.'
+    })
+  }
+})
 
-    return {
-      id: recipe.id,
-      name_en: recipe.name_en,
-      name_th: recipe.name_th,
-      ingredients_en: recipe.ingredients_en,
-      ingredients_th: recipe.ingredients_th,
-      seasonings_en: recipe.seasonings_en,
-      seasonings_th: recipe.seasonings_th,
-      score,
-      matched: [...new Set(matched)],
-      missing_en,
-      missing_th,
-      ai_reason: recipe.ai_reason || fallbackReason(language, matched),
-      ai_missing: language === 'th' ? missing_th : missing_en,
-      ai_substitutes: [],
-      time_min: recipe.time_min,
-      difficulty: recipe.difficulty,
-      steps_en: recipe.steps_en,
-      steps_th: recipe.steps_th
-    }
-  })
-
-  scored.sort((a, b) => b.score - a.score)
-  res.json({ input: ingredients, language, results: scored.slice(0, 5) })
+process.on('unhandledRejection', (reason) => {
+  console.error('Unhandled rejection:', reason)
 })
 
 const port = process.env.PORT || 8000
