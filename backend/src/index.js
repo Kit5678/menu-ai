@@ -22,11 +22,22 @@ const envOrigins = process.env.CORS_ORIGINS
 
 const allowOrigins = Array.from(new Set([...defaultOrigins, ...envOrigins]))
 
+const isAllowedOrigin = (origin) => {
+  if (!origin) return true
+  if (allowOrigins.includes(origin)) return true
+  try {
+    const url = new URL(origin)
+    if (url.hostname.endsWith('.vercel.app')) return true
+  } catch (err) {
+    return false
+  }
+  return false
+}
+
 app.use(
   cors({
     origin: (origin, callback) => {
-      if (!origin) return callback(null, true)
-      if (allowOrigins.includes(origin)) return callback(null, true)
+      if (isAllowedOrigin(origin)) return callback(null, true)
       return callback(new Error('CORS not allowed'))
     },
     credentials: true,
