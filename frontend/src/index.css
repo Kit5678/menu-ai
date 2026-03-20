@@ -1,58 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Space+Grotesk:wght@400;600&family=Sarabun:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  font-family: 'Space Grotesk', 'Sarabun', system-ui, sans-serif;
-  color: #1f1b16;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
 }
 
 body {
   margin: 0;
-  min-height: 100svh;
-  background: var(--bg, #f4f0e6);
-  transition: background 0.2s ease, color 0.2s ease;
-  color: var(--ink, #1f1b16);
-}
-
-#root {
-  min-height: 100svh;
-  background-image: radial-gradient(
-    circle at 80% 0%,
-    rgba(228, 87, 46, 0.18),
-    transparent 45%
-  );
-}
-
-[data-theme='dark'] #root {
-  background-image: radial-gradient(
-    circle at 80% 0%,
-    rgba(240, 138, 93, 0.18),
-    transparent 45%
-  );
-}
-
-h1,
-h2,
-h3 {
-  font-family: 'Fraunces', 'Sarabun', serif;
-  color: var(--ink, #1f1b16);
-}
-
-[data-lang='th'] h1,
-[data-lang='th'] h2,
-[data-lang='th'] h3,
-[data-lang='th'] .eyebrow,
-[data-lang='th'] .subhead,
-[data-lang='th'] .results-head,
-[data-lang='th'] .meta,
-[data-lang='th'] .panel,
-[data-lang='th'] .card,
-[data-lang='th'] .modal-card {
-  font-family: 'Sarabun', system-ui, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
+  min-height: 100vh;
+  background: #f8f5f0;
+  color: #1f1b16;
 }
