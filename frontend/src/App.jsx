@@ -3,56 +3,56 @@ import { useMemo, useState, useEffect } from 'react'
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
 const ingredientOptions = [
-  { th: 'ไข่', en: 'egg' },
-  { th: 'ไก่', en: 'chicken' },
-  { th: 'หมู', en: 'pork' },
-  { th: 'เนื้อวัว', en: 'beef' },
-  { th: 'กุ้ง', en: 'shrimp' },
-  { th: 'ปลาหมึก', en: 'squid' },
-  { th: 'เต้าหู้', en: 'tofu' },
-  { th: 'ข้าว', en: 'rice' },
-  { th: 'เส้นก๋วยเตี๋ยว', en: 'noodles' },
-  { th: 'วุ้นเส้น', en: 'vermicelli' },
-  { th: 'ขนมปัง', en: 'bread' },
-  { th: 'ถั่วฝักยาว', en: 'yardlong beans' },
-  { th: 'คะน้า', en: 'kale' },
-  { th: 'ผักบุ้ง', en: 'morning glory' },
-  { th: 'กะหล่ำปลี', en: 'cabbage' },
-  { th: 'แครอท', en: 'carrot' },
-  { th: 'มะเขือเทศ', en: 'tomato' },
-  { th: 'หอมใหญ่', en: 'onion' },
-  { th: 'เห็ด', en: 'mushroom' },
-  { th: 'แตงกวา', en: 'cucumber' },
-  { th: 'มะเขือยาว', en: 'eggplant' },
-  { th: 'มะเขือเปราะ', en: 'thai eggplant' },
-  { th: 'โหระพา', en: 'basil' },
-  { th: 'กระเทียม', en: 'garlic' },
-  { th: 'พริก', en: 'chili' },
-  { th: 'ขิง', en: 'ginger' },
-  { th: 'ต้นหอม', en: 'spring onion' },
-  { th: 'ผักชี', en: 'coriander' },
-  { th: 'มันฝรั่ง', en: 'potato' },
-  { th: 'ฟักทอง', en: 'pumpkin' },
-  { th: 'ข้าวโพด', en: 'corn' },
-  { th: 'พริกหวาน', en: 'bell pepper' },
-  { th: 'ถั่วงอก', en: 'bean sprouts' },
-  { th: 'มะนาว', en: 'lime' },
-  { th: 'ตะไคร้', en: 'lemongrass' },
-  { th: 'ข่า', en: 'galangal' },
-  { th: 'สับปะรด', en: 'pineapple' },
-  { th: 'บรอกโคลี', en: 'broccoli' },
-  { th: 'ดอกกะหล่ำ', en: 'cauliflower' },
-  { th: 'ผักโขม', en: 'spinach' },
-  { th: 'เซเลอรี', en: 'celery' },
-  { th: 'ผักกาดหอม', en: 'lettuce' },
-  { th: 'ผักกวางตุ้ง', en: 'bok choy' },
-  { th: 'สาหร่าย', en: 'seaweed' },
-  { th: 'ข้าวกล้อง', en: 'brown rice' },
-  { th: 'ปลาทู', en: 'mackerel' },
-  { th: 'ปลาแซลมอน', en: 'salmon' },
-  { th: 'ปูอัด', en: 'crab stick' },
-  { th: 'ไส้กรอก', en: 'sausage' },
-  { th: 'เบคอน', en: 'bacon' }
+  { th: '\u0e44\u0e02\u0e48', en: 'egg' },
+  { th: '\u0e44\u0e01\u0e48', en: 'chicken' },
+  { th: '\u0e2b\u0e21\u0e39', en: 'pork' },
+  { th: '\u0e40\u0e19\u0e37\u0e49\u0e2d\u0e27\u0e31\u0e27', en: 'beef' },
+  { th: '\u0e01\u0e38\u0e49\u0e07', en: 'shrimp' },
+  { th: '\u0e1b\u0e25\u0e32\u0e2b\u0e21\u0e36\u0e01', en: 'squid' },
+  { th: '\u0e40\u0e15\u0e49\u0e32\u0e2b\u0e39\u0e49', en: 'tofu' },
+  { th: '\u0e02\u0e49\u0e32\u0e27', en: 'rice' },
+  { th: '\u0e40\u0e2a\u0e49\u0e19\u0e01\u0e4b\u0e27\u0e22\u0e40\u0e15\u0e35\u0e4b\u0e22\u0e27', en: 'noodles' },
+  { th: '\u0e27\u0e38\u0e49\u0e19\u0e40\u0e2a\u0e49\u0e19', en: 'vermicelli' },
+  { th: '\u0e02\u0e19\u0e21\u0e1b\u0e31\u0e07', en: 'bread' },
+  { th: '\u0e16\u0e31\u0e48\u0e27\u0e1d\u0e31\u0e01\u0e22\u0e32\u0e27', en: 'yardlong beans' },
+  { th: '\u0e04\u0e30\u0e19\u0e49\u0e32', en: 'kale' },
+  { th: '\u0e1c\u0e31\u0e01\u0e1a\u0e38\u0e49\u0e07', en: 'morning glory' },
+  { th: '\u0e01\u0e30\u0e2b\u0e25\u0e48\u0e33\u0e1b\u0e25\u0e35', en: 'cabbage' },
+  { th: '\u0e41\u0e04\u0e23\u0e2d\u0e17', en: 'carrot' },
+  { th: '\u0e21\u0e30\u0e40\u0e02\u0e37\u0e2d\u0e40\u0e17\u0e28', en: 'tomato' },
+  { th: '\u0e2b\u0e2d\u0e21\u0e43\u0e2b\u0e0d\u0e48', en: 'onion' },
+  { th: '\u0e40\u0e2b\u0e47\u0e14', en: 'mushroom' },
+  { th: '\u0e41\u0e15\u0e07\u0e01\u0e27\u0e32', en: 'cucumber' },
+  { th: '\u0e21\u0e30\u0e40\u0e02\u0e37\u0e2d\u0e22\u0e32\u0e27', en: 'eggplant' },
+  { th: '\u0e21\u0e30\u0e40\u0e02\u0e37\u0e2d\u0e40\u0e1b\u0e23\u0e32\u0e30', en: 'thai eggplant' },
+  { th: '\u0e42\u0e2b\u0e23\u0e30\u0e1e\u0e32', en: 'basil' },
+  { th: '\u0e01\u0e23\u0e30\u0e40\u0e17\u0e35\u0e22\u0e21', en: 'garlic' },
+  { th: '\u0e1e\u0e23\u0e34\u0e01', en: 'chili' },
+  { th: '\u0e02\u0e34\u0e07', en: 'ginger' },
+  { th: '\u0e15\u0e49\u0e19\u0e2b\u0e2d\u0e21', en: 'spring onion' },
+  { th: '\u0e1c\u0e31\u0e01\u0e0a\u0e35', en: 'coriander' },
+  { th: '\u0e21\u0e31\u0e19\u0e1d\u0e23\u0e31\u0e48\u0e07', en: 'potato' },
+  { th: '\u0e1f\u0e31\u0e01\u0e17\u0e2d\u0e07', en: 'pumpkin' },
+  { th: '\u0e02\u0e49\u0e32\u0e27\u0e42\u0e1e\u0e14', en: 'corn' },
+  { th: '\u0e1e\u0e23\u0e34\u0e01\u0e2b\u0e27\u0e32\u0e19', en: 'bell pepper' },
+  { th: '\u0e16\u0e31\u0e48\u0e27\u0e07\u0e2d\u0e01', en: 'bean sprouts' },
+  { th: '\u0e21\u0e30\u0e19\u0e32\u0e27', en: 'lime' },
+  { th: '\u0e15\u0e30\u0e44\u0e04\u0e23\u0e49', en: 'lemongrass' },
+  { th: '\u0e02\u0e48\u0e32', en: 'galangal' },
+  { th: '\u0e2a\u0e31\u0e1a\u0e1b\u0e30\u0e23\u0e14', en: 'pineapple' },
+  { th: '\u0e1a\u0e23\u0e2d\u0e01\u0e42\u0e04\u0e25\u0e35', en: 'broccoli' },
+  { th: '\u0e14\u0e2d\u0e01\u0e01\u0e30\u0e2b\u0e25\u0e48\u0e33', en: 'cauliflower' },
+  { th: '\u0e1c\u0e31\u0e01\u0e42\u0e02\u0e21', en: 'spinach' },
+  { th: '\u0e40\u0e0b\u0e40\u0e25\u0e2d\u0e23\u0e35', en: 'celery' },
+  { th: '\u0e1c\u0e31\u0e01\u0e01\u0e32\u0e14\u0e2b\u0e2d\u0e21', en: 'lettuce' },
+  { th: '\u0e1c\u0e31\u0e01\u0e01\u0e27\u0e32\u0e07\u0e15\u0e38\u0e49\u0e07', en: 'bok choy' },
+  { th: '\u0e2a\u0e32\u0e2b\u0e23\u0e48\u0e32\u0e22', en: 'seaweed' },
+  { th: '\u0e02\u0e49\u0e32\u0e27\u0e01\u0e25\u0e49\u0e2d\u0e07', en: 'brown rice' },
+  { th: '\u0e1b\u0e25\u0e32\u0e17\u0e39', en: 'mackerel' },
+  { th: '\u0e1b\u0e25\u0e32\u0e41\u0e0b\u0e25\u0e21\u0e2d\u0e19', en: 'salmon' },
+  { th: '\u0e1b\u0e39\u0e2d\u0e31\u0e14', en: 'crab stick' },
+  { th: '\u0e44\u0e2a\u0e49\u0e01\u0e23\u0e2d\u0e01', en: 'sausage' },
+  { th: '\u0e40\u0e1a\u0e04\u0e2d\u0e19', en: 'bacon' }
 ]
 
 const translations = {
@@ -111,6 +111,9 @@ const difficultyMap = {
   en: { easy: 'Easy', medium: 'Medium', hard: 'Hard' }
 }
 
+const containsThai = (text) => /[฀-๿]/.test(text || '')
+
+
 function App() {
   const [selectedIds, setSelectedIds] = useState(['egg', 'rice'])
   const [results, setResults] = useState([])
@@ -130,6 +133,14 @@ function App() {
       return language === 'th' ? found?.th || id : found?.en || id
     })
   }, [selectedIds, language])
+
+  const mapMatchedLabel = (value) => {
+    const foundByEn = ingredientOptions.find((item) => item.en === value)
+    if (foundByEn) return language === 'th' ? foundByEn.th : foundByEn.en
+    const foundByTh = ingredientOptions.find((item) => item.th === value)
+    if (foundByTh) return language === 'th' ? foundByTh.th : foundByTh.en
+    return value
+  }
 
   const fetchResults = async () => {
     setError('')
@@ -167,6 +178,15 @@ function App() {
 
   const getRecipeName = (item) =>
     language === 'th' ? item.name_th || item.name_en : item.name_en || item.name_th
+
+  const getReason = (item) => {
+    if (item.ai_reason) {
+      const hasThai = containsThai(item.ai_reason)
+      if (language === 'th' && hasThai) return item.ai_reason
+      if (language === 'en' && !hasThai) return item.ai_reason
+    }
+    return t.matchedSummary(item.matched.length)
+  }
 
   const t = translations[language]
 
@@ -267,7 +287,7 @@ function App() {
                     {t.score}: {item.score}
                   </p>
                   <p className="text-sm text-[#7a6f63] dark:text-[#cbbfb3]">
-                    {item.ai_reason || t.matchedSummary(item.matched.length)}
+                    {getReason(item)}
                   </p>
                   <button
                     type="button"
@@ -284,9 +304,9 @@ function App() {
                     </p>
                     <div className="mt-2 flex flex-wrap gap-2">
                       {item.matched.length > 0 ? (
-                        item.matched.map((match) => (
-                          <span key={match} className="rounded-full bg-[#f5e5d6] px-3 py-1 text-xs dark:bg-[#2b2218]">
-                            {match}
+                        item.matched.map((match, idx) => (
+                          <span key={`${match}-${idx}`} className="rounded-full bg-[#f5e5d6] px-3 py-1 text-xs dark:bg-[#2b2218]">
+                            {mapMatchedLabel(match)}
                           </span>
                         ))
                       ) : (
@@ -302,8 +322,8 @@ function App() {
                         {t.missing}
                       </p>
                       <div className="mt-2 flex flex-wrap gap-2">
-                        {(language === 'th' ? item.missing_th : item.missing_en).map((missing) => (
-                          <span key={missing} className="rounded-full bg-[#f0ede8] px-3 py-1 text-xs text-[#7a6f63] dark:bg-[#242019]">
+                        {(language === 'th' ? item.missing_th : item.missing_en).map((missing, idx) => (
+                          <span key={`${missing}-${idx}`} className="rounded-full bg-[#f0ede8] px-3 py-1 text-xs text-[#7a6f63] dark:bg-[#242019]">
                             {missing}
                           </span>
                         ))}
@@ -316,8 +336,8 @@ function App() {
                         {t.seasonings}
                       </p>
                       <div className="mt-2 flex flex-wrap gap-2">
-                        {(language === 'th' ? item.seasonings_th : item.seasonings_en).map((season) => (
-                          <span key={season} className="rounded-full bg-[#f5e5d6] px-3 py-1 text-xs dark:bg-[#2b2218]">
+                        {(language === 'th' ? item.seasonings_th : item.seasonings_en).map((season, idx) => (
+                          <span key={`${season}-${idx}`} className="rounded-full bg-[#f5e5d6] px-3 py-1 text-xs dark:bg-[#2b2218]">
                             {season}
                           </span>
                         ))}
@@ -355,8 +375,8 @@ function App() {
             <div className="mt-4">
               <p className="text-sm font-semibold">{t.steps}</p>
               <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm text-[#7a6f63] dark:text-[#cbbfb3]">
-                {(language === 'th' ? selectedRecipe.steps_th : selectedRecipe.steps_en).map((step) => (
-                  <li key={step}>{step}</li>
+                {(language === 'th' ? selectedRecipe.steps_th : selectedRecipe.steps_en).map((step, idx) => (
+                  <li key={`${step}-${idx}`}>{step}</li>
                 ))}
               </ol>
             </div>
@@ -364,8 +384,8 @@ function App() {
               <div className="mt-4">
                 <p className="text-sm font-semibold">{t.seasonings}</p>
                 <div className="mt-2 flex flex-wrap gap-2">
-                  {(language === 'th' ? selectedRecipe.seasonings_th : selectedRecipe.seasonings_en).map((season) => (
-                    <span key={season} className="rounded-full bg-[#f5e5d6] px-3 py-1 text-xs dark:bg-[#2b2218]">
+                  {(language === 'th' ? selectedRecipe.seasonings_th : selectedRecipe.seasonings_en).map((season, idx) => (
+                    <span key={`${season}-${idx}`} className="rounded-full bg-[#f5e5d6] px-3 py-1 text-xs dark:bg-[#2b2218]">
                       {season}
                     </span>
                   ))}
