@@ -79,10 +79,6 @@ const translations = {
     noOverlap: 'ยังไม่ตรงกับวัตถุดิบที่เลือก',
     apiError: 'เชื่อมต่อ API ไม่ได้ กรุณาตรวจสอบการเปิดบริการ Backend',
     matchedSummary: (n) => `วัตถุดิบตรงกัน ${n} รายการ เหมาะสำหรับทำเมนูนี้`,
-    aiSection: '\u0e2a\u0e23\u0e38\u0e1b\u0e08\u0e32\u0e01 AI',
-    aiReasonLabel: '\u0e40\u0e2b\u0e15\u0e38\u0e1c\u0e25\u0e17\u0e35\u0e48\u0e41\u0e19\u0e30\u0e19\u0e33 (AI)',
-    aiMissingLabel: '\u0e27\u0e31\u0e15\u0e16\u0e38\u0e14\u0e34\u0e1a\u0e17\u0e35\u0e48\u0e02\u0e32\u0e14 (AI)',
-    aiSubLabel: '\u0e27\u0e31\u0e15\u0e16\u0e38\u0e14\u0e34\u0e1a\u0e17\u0e14\u0e41\u0e17\u0e19 (AI)',
   },
   en: {
     eyebrow: 'Recipe matcher',
@@ -107,10 +103,6 @@ const translations = {
     noOverlap: 'No direct overlap',
     apiError: 'Cannot reach the API. Please check the backend service.',
     matchedSummary: (n) => `${n} ingredients match. This recipe is a good fit.`,
-    aiSection: '\u0e2a\u0e23\u0e38\u0e1b\u0e08\u0e32\u0e01 AI',
-    aiReasonLabel: '\u0e40\u0e2b\u0e15\u0e38\u0e1c\u0e25\u0e17\u0e35\u0e48\u0e41\u0e19\u0e30\u0e19\u0e33 (AI)',
-    aiMissingLabel: '\u0e27\u0e31\u0e15\u0e16\u0e38\u0e14\u0e34\u0e1a\u0e17\u0e35\u0e48\u0e02\u0e32\u0e14 (AI)',
-    aiSubLabel: '\u0e27\u0e31\u0e15\u0e16\u0e38\u0e14\u0e34\u0e1a\u0e17\u0e14\u0e41\u0e17\u0e19 (AI)',
   }
 }
 
@@ -294,44 +286,8 @@ function App() {
                   <p className="text-sm font-semibold text-[#e4572e]">
                     {t.score}: {item.score}
                   </p>
-                  <div className="space-y-2 rounded-xl border border-[#efe3d5] bg-[#fffaf5] p-3 text-sm text-[#7a6f63] dark:border-[#2f271e] dark:bg-[#1b1610] dark:text-[#cbbfb3]">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-[#7a6f63] dark:text-[#cbbfb3]">
-                      {t.aiSection}
-                    </p>
-                    <div>
-                      <p className="text-xs font-semibold text-[#7a6f63] dark:text-[#cbbfb3]">
-                        {t.aiReasonLabel}
-                      </p>
-                      <p>{getReason(item)}</p>
-                    </div>
-                    {item.ai_missing?.length > 0 && (
-                      <div>
-                        <p className="text-xs font-semibold text-[#7a6f63] dark:text-[#cbbfb3]">
-                          {t.aiMissingLabel}
-                        </p>
-                        <div className="mt-2 flex flex-wrap gap-2">
-                          {item.ai_missing.map((missing, idx) => (
-                            <span key={`${missing}-${idx}`} className="rounded-full bg-[#f0ede8] px-3 py-1 text-xs text-[#7a6f63] dark:bg-[#242019]">
-                              {missing}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-                    {item.ai_substitutes?.length > 0 && (
-                      <div>
-                        <p className="text-xs font-semibold text-[#7a6f63] dark:text-[#cbbfb3]">
-                          {t.aiSubLabel}
-                        </p>
-                        <div className="mt-2 flex flex-wrap gap-2">
-                          {item.ai_substitutes.map((sub, idx) => (
-                            <span key={`${sub}-${idx}`} className="rounded-full bg-[#f5e5d6] px-3 py-1 text-xs dark:bg-[#2b2218]">
-                              {sub}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    )}
+                  <div className="rounded-xl border border-[#efe3d5] bg-[#fffaf5] p-3 text-sm text-[#7a6f63] dark:border-[#2f271e] dark:bg-[#1b1610] dark:text-[#cbbfb3]">
+                    <p>{getReason(item)}</p>
                   </div>
                   <button
                     type="button"
