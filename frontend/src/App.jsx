@@ -1,4 +1,4 @@
-import { useMemo, useState, useEffect } from 'react'
+import { useMemo, useState, useEffect, useRef } from 'react'
 
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
@@ -115,24 +115,34 @@ const containsThai = (text) => /[฀-๿]/.test(text || '')
 
 
 function App() {
-  const [selectedIds, setSelectedIds] = useState(['egg', 'rice'])
+  const [selectedIds, setSelectedIds] = useState([])
   const [results, setResults] = useState([])
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const [language, setLanguage] = useState('th')
   const [theme, setTheme] = useState('light')
   const [selectedRecipe, setSelectedRecipe] = useState(null)
+  const loadingTimerRef = useRef(null)
+  const activeRequestRef = useRef({ controller: null, id: 0 })
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark')
   }, [theme])
 
+  useEffect(() => {
+    return () => {
+      if (loadingTimerRef.current) {
+        clearTimeout(loadingTimerRef.current)
+      }
+      if (activeRequestRef.current.controller) {
+        activeRequestRef.current.controller.abort()
+      }
+    }
+  }, [])
+
   const ingredients = useMemo(() => {
-    return selectedIds.map((id) => {
-      const found = ingredientOptions.find((item) => item.en === id)
-      return language === 'th' ? found?.th || id : found?.en || id
-    })
-  }, [selectedIds, language])
+    return [...selectedIds]
+  }, [selectedIds])
 
   const mapMatchedLabel = (value) => {
     const foundByEn = ingredientOptions.find((item) => item.en === value)
@@ -144,13 +154,26 @@ function App() {
 
   const fetchResults = async () => {
     setError('')
+    if (loadingTimerRef.current) {
+      clearTimeout(loadingTimerRef.current)
+      loadingTimerRef.current = null
+    }
+    if (activeRequestRef.current.controller) {
+      activeRequestRef.current.controller.abort()
+    }
+    const controller = new AbortController()
+    const requestId = activeRequestRef.current.id + 1
+    activeRequestRef.current = { controller, id: requestId }
     setLoading(true)
+    const start = Date.now()
+    const minDurationMs = 600
 
     try {
       const response = await fetch(`${API_BASE}/recommend`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ingredients, language })
+        body: JSON.stringify({ ingredients, language }),
+        signal: controller.signal
       })
 
       if (!response.ok) {
@@ -158,11 +181,21 @@ function App() {
       }
 
       const data = await response.json()
-      setResults(data.results || [])
+      if (activeRequestRef.current.id === requestId) {
+        setResults(data.results || [])
+      }
     } catch (err) {
+      if (err?.name === 'AbortError') return
       setError(translations[language].apiError)
     } finally {
-      setLoading(false)
+      const elapsed = Date.now() - start
+      const remaining = Math.max(0, minDurationMs - elapsed)
+      loadingTimerRef.current = setTimeout(() => {
+        if (activeRequestRef.current.id === requestId) {
+          setLoading(false)
+          loadingTimerRef.current = null
+        }
+      }, remaining)
     }
   }
 
@@ -233,7 +266,7 @@ function App() {
                     key={item.en}
                     className={`flex cursor-pointer items-center gap-2 rounded-full border px-3 py-2 text-sm transition ${
                       checked
-                        ? 'border-[#e4572e] bg-[#fff5ef] text-[#1f1b16] dark:bg-[#2a2119]'
+                        ? 'border-[#e4572e] bg-[#fff5ef] text-[#1f1b16] dark:bg-[#2a2119] dark:text-[#f7efe5]'
                         : 'border-[#e6dac8] bg-white dark:border-[#3b342b] dark:bg-[#1a1510]'
                     }`}
                   >
@@ -251,11 +284,18 @@ function App() {
             <div className="flex flex-wrap items-center gap-3">
               <button
                 type="button"
-                onClick={fetchResults}
-                disabled={loading || ingredients.length === 0}
-                className="rounded-full bg-[#e4572e] px-5 py-2 text-sm font-semibold text-white transition hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:bg-[#e0b6a8]"
+                onClick={() => {
+                  if (loading || ingredients.length === 0) return
+                  fetchResults()
+                }}
+                disabled={ingredients.length === 0}
+                aria-disabled={loading || ingredients.length === 0}
+                aria-busy={loading}
+                className={`group relative inline-flex min-w-[140px] items-center justify-center gap-2 overflow-hidden rounded-full bg-[#e4572e] px-6 py-2.5 text-sm font-semibold text-white shadow-[0_12px_24px_rgba(228,87,46,0.28)] ring-1 ring-[#e4572e]/40 transition-colors hover:bg-[#cf4c29] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f08a5d] focus-visible:ring-offset-2 focus-visible:ring-offset-[#f8f5f0] ${ingredients.length === 0 ? 'cursor-not-allowed bg-[#e0b6a8] shadow-none ring-0' : ''} ${loading ? 'cursor-wait' : ''}`}
               >
-                {loading ? t.loading : t.recommend}
+                <span className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-700 ease-out group-hover:translate-x-full" />
+                <span className={`inline-block h-2 w-2 rounded-full bg-white/80 transition-opacity duration-200 ${loading ? 'animate-pulse opacity-100' : 'opacity-0'}`} />
+                <span>{t.recommend}</span>
               </button>
               <button
                 type="button"
@@ -273,7 +313,12 @@ function App() {
         <section className="space-y-3">
           <h2 className="text-xl font-semibold">{t.resultsTitle}</h2>
           <p className="text-sm text-[#7a6f63] dark:text-[#cbbfb3]">{t.resultsSubtitle}</p>
-          {results.length === 0 && (
+          {loading && (
+            <div className="rounded-2xl border border-[#efe3d5] bg-[#fffaf5] px-4 py-3 text-sm text-[#7a6f63] shadow-sm dark:border-[#2f271e] dark:bg-[#1b1610] dark:text-[#cbbfb3]">
+              {t.loading}
+            </div>
+          )}
+          {!loading && results.length === 0 && (
             <p className="rounded-2xl border border-dashed border-[#e6dac8] bg-white/60 px-4 py-3 text-sm text-[#7a6f63] dark:border-[#3b342b] dark:bg-[#1f1a14] dark:text-[#cbbfb3]">
               {t.empty}
             </p>

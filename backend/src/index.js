@@ -10,6 +10,8 @@ const prisma = new PrismaClient()
 
 const defaultOrigins = [
   'http://localhost:5173',
+  'http://localhost:5500',
+  'http://127.0.0.1:5500',
   'https://menu-ai-tan.vercel.app',
   'https://menu-ai-git-main-kit5678s-projects.vercel.app',
   'https://menu-nhiwxpcp8-kit5678s-projects.vercel.app',
@@ -36,7 +38,7 @@ const isAllowedOrigin = (origin) => {
 
 app.use(
   cors({
-    origin: true,
+    origin: (origin, callback) => callback(null, isAllowedOrigin(origin)),
     credentials: true,
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders: ['Content-Type']
@@ -225,7 +227,8 @@ const translateNameToThai = (name = '') => {
   Object.entries(INGREDIENT_THAI).forEach(([en, th]) => {
     result = result.replace(new RegExp(`\\b${escapeRegex(en)}\\b`, 'gi'), th)
   })
-  result = result.replace(/with/gi, 'กับ')
+  result = result.replace(/\bwith\b/gi, 'ใส่')
+  result = result.replace(/(?<=[\u0E00-\u0E7F])\s+(?=[\u0E00-\u0E7F])/g, '')
   return result
 }
 
@@ -348,8 +351,9 @@ app.post('/recommend', async (req, res) => {
       }
     })
 
-    scored.sort((a, b) => b.score - a.score)
-    res.json({ input: ingredients, language, results: scored.slice(0, 5) })
+    const filtered = scored.filter((item) => item.score > 0)
+    filtered.sort((a, b) => b.score - a.score)
+    res.json({ input: ingredients, language, results: filtered.slice(0, 5) })
   } catch (error) {
     console.error('Recommend failed:', error)
     res.status(500).json({
@@ -363,7 +367,7 @@ process.on('unhandledRejection', (reason) => {
   console.error('Unhandled rejection:', reason)
 })
 
-const port = process.env.PORT || 8000
+const port = process.env.PORT || 8001
 app.listen(port, () => {
   console.log(`API running on port ${port}`)
 })

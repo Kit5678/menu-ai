@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 async function main() {
-  const dataPath = path.join(__dirname, '..', 'data', 'sample_recipes.json')
+  const dataPath = path.join(__dirname, 'seed-data', 'sample_recipes.json')
   const raw = await readFile(dataPath, 'utf-8')
   const parsed = JSON.parse(raw)
   const recipes = parsed.recipes || []
